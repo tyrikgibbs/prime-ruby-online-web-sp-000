@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(integer)
-  if integer < 1
-    return false
-  else
+  if "#{integer}".prime?
     return true
+  else
+    return false
   end
 end
