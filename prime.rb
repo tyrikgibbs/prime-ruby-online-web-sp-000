@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(integer)
-  if n%2 !=0 && n!=2
+  if integer %2 != 0 && integer != 2
     return true
   else
     return false
